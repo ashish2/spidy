@@ -1,0 +1,45 @@
+
+
+Hi Ashish,
+
+Apologies for the delay as I realized that the email was still sitting in my outbox and had not reached you. Following are the 2 problem statements that we had for you post our first interview meeting:
+
+PROBLEM 1
+Crawl any of the following web-sites for a total of 100 products across any 4 categories (25 products each category)
+        a. Flipkart
+        b. Snapdeal
+        c. Jabong
+        d. Homeshop18
+
+The details that we want about each product are as follows:
+
+1.	Product URL
+20. Product id/Model Number/SKU Code
+9.	Actual Selling Price
+5.	Colors available
+3.	Product Name
+add. Features
+7.	Product Specifications
+4.	Product Description
+2.	Image URL – All the images
+6.	Product Sizes/
+add. Dimensions
+8.	Product Delivery Time
+10. Discounted Selling Price
+11. Discount in %age
+
+12. Product Type/Pattern
+
+13. Product Material/Fabric
+
+14. Product Parent Category
+
+15. Product sub-categories
+
+16. Brand Name
+
+17. Payment Options
+
+18. Seller info (only for Market Places)
+19. Product Popularity (Reviews and scores)
+

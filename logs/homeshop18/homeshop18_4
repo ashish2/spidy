@@ -1,0 +1,1045 @@
+2014-11-27 03:22:02-0600 [scrapy] INFO: Scrapy 0.18.4 started (bot: tutorial2)
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Optional features available: ssl, django, http11, libxml2
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Overridden settings: {'NEWSPIDER_MODULE': 'tutorial2.spiders', 'FEED_URI': 'downloaded_items/homeshop18/homeshop18.json', 'SPIDER_MODULES': ['tutorial2.spiders'], 'BOT_NAME': 'tutorial2', 'ITEM_PIPELINES': ['scrapy.contrib.pipeline.images.ImagesPipeline'], 'FEED_FORMAT': 'json', 'LOG_FILE': 'logs/homeshop18/homeshop18', 'DOWNLOAD_DELAY': 1.0}
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Enabled extensions: AutoThrottle, FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Enabled item pipelines: ImagesPipeline
+2014-11-27 03:22:02-0600 [homeshop18] INFO: Spider opened
+2014-11-27 03:22:02-0600 [homeshop18] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2014-11-27 03:22:02-0600 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2014-11-27 03:22:03-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/travel-26-luggage/category:17331/> (referer: None)
+2014-11-27 03:22:09-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-orange/fashion-accessories/travel-luggage/product:32924619/cid:17335/?pos=1> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:10-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/473/red-chilli-unisex-jacquard-gymbag-orange-large_4b720dcbcdb822bf12ad305f369e2d38.jpg> (referer: None)
+2014-11-27 03:22:10-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/473/red-chilli-unisex-jacquard-gymbag-orange-large_4b720dcbcdb822bf12ad305f369e2d38.jpg> referred in <None>
+2014-11-27 03:22:11-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/hidekraft-leather-card-holder-black/fashion-accessories/travel-luggage/product:32899919/cid:17341/?pos=24> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:12-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/417/red-chilli-unisex-jacquard-gymbag-orange-large_f118d700a1333eb8b140ee6d7b80aebe.jpg> (referer: None)
+2014-11-27 03:22:12-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/417/red-chilli-unisex-jacquard-gymbag-orange-large_f118d700a1333eb8b140ee6d7b80aebe.jpg> referred in <None>
+2014-11-27 03:22:12-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32901999/cid:17337/?pos=23> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:14-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/241/red-chilli-unisex-jacquard-gymbag-orange-large_d227c208f4501198a69fd9a727c164a4.jpg> (referer: None)
+2014-11-27 03:22:14-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/241/red-chilli-unisex-jacquard-gymbag-orange-large_d227c208f4501198a69fd9a727c164a4.jpg> referred in <None>
+2014-11-27 03:22:14-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902001/cid:17337/?pos=22> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:15-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/377/red-chilli-unisex-jacquard-gymbag-orange-large_bbc21c96a8a11eb7101f8a992133298a.jpg> (referer: None)
+2014-11-27 03:22:15-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/377/red-chilli-unisex-jacquard-gymbag-orange-large_bbc21c96a8a11eb7101f8a992133298a.jpg> referred in <None>
+2014-11-27 03:22:16-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-orange/fashion-accessories/travel-luggage/product:32924619/cid:17335/?pos=1>
+	{'brand': u'Red Chilli',
+	 'category': u'Fashion Accessories',
+	 'code': u'32924619',
+	 'color': u'Orange',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'40%',
+	 'discounted_selling_price': u'999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/473/red-chilli-unisex-jacquard-gymbag-orange-large_4b720dcbcdb822bf12ad305f369e2d38.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/417/red-chilli-unisex-jacquard-gymbag-orange-large_f118d700a1333eb8b140ee6d7b80aebe.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/241/red-chilli-unisex-jacquard-gymbag-orange-large_d227c208f4501198a69fd9a727c164a4.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/377/red-chilli-unisex-jacquard-gymbag-orange-large_bbc21c96a8a11eb7101f8a992133298a.jpg'],
+	 'images': [{'checksum': '04378e62f567f839f01a65676307f668',
+	             'path': 'full/2f0a37c5b31d5acb6efcfee47e661e4b18803209.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/473/red-chilli-unisex-jacquard-gymbag-orange-large_4b720dcbcdb822bf12ad305f369e2d38.jpg'},
+	            {'checksum': '631ae0712becd937d9962da8a1c1e98a',
+	             'path': 'full/01ef86f8ff9ec26957a3e1e362839ec999199c75.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/417/red-chilli-unisex-jacquard-gymbag-orange-large_f118d700a1333eb8b140ee6d7b80aebe.jpg'},
+	            {'checksum': '83347bbb3c8f168b1898b39fbd5a6c81',
+	             'path': 'full/6ec1c01ec548d3979f25b4f20b822c5ec925bf96.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/241/red-chilli-unisex-jacquard-gymbag-orange-large_d227c208f4501198a69fd9a727c164a4.jpg'},
+	            {'checksum': '483926315bcbded0d6bc81d92123456a',
+	             'path': 'full/d31cab27b2d262f3777b30180528762e9a1c152a.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/377/red-chilli-unisex-jacquard-gymbag-orange-large_bbc21c96a8a11eb7101f8a992133298a.jpg'}],
+	 'name': '',
+	 'price': u'599',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-orange/fashion-accessories/travel-luggage/product:32924619/cid:17335/?pos=1'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Red Chilli</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Gym Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Bag Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Orange</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Jacquard</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><ul><li><span>1 Main Compartment</span></li><li><span>1 Zippered Pocket</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><ul><li><span>2 Handles </span></li><li><span>1 Adjustable Shoulder Strap</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>49 x 26 x 26 cm (20 x 11 x 11 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean And Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Gym Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:16-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902003/cid:17337/?pos=21> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/914/hidekraft-leather-card-holder-black-large_71e686014488b3b105508991d85e13c1.jpg> (referer: None)
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/914/hidekraft-leather-card-holder-black-large_71e686014488b3b105508991d85e13c1.jpg> referred in <None>
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902005/cid:17337/?pos=20> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902005/cid:17337/?pos=20>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902005',
+	 'color': u'Brown',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [],
+	 'images': [],
+	 'name': '',
+	 'price': u'6225',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902005/cid:17337/?pos=20'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Brown</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 52 L</span></li><li><span>67 cm: 90.8 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 55 x 35 x 27 cm (21.7 x 13.8 x 10.6 in)</span></li><li><span>67 cm: 66 x 43 x 32 cm (26 x 16.9 x 12.6 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/98/hidekraft-leather-card-holder-black-large_5bee0feecfc66c807e690ac72aabdb98.jpg> (referer: None)
+2014-11-27 03:22:17-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/98/hidekraft-leather-card-holder-black-large_5bee0feecfc66c807e690ac72aabdb98.jpg> referred in <None>
+2014-11-27 03:22:18-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902011/cid:17337/?pos=19> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:19-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/570/hidekraft-leather-card-holder-black-large_1fa82ec5097af120957e8d8973a01a67.jpg> (referer: None)
+2014-11-27 03:22:19-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/570/hidekraft-leather-card-holder-black-large_1fa82ec5097af120957e8d8973a01a67.jpg> referred in <None>
+2014-11-27 03:22:19-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/hidekraft-leather-card-holder-black/fashion-accessories/travel-luggage/product:32899919/cid:17341/?pos=24>
+	{'brand': u'Hidekraft',
+	 'category': u'Fashion Accessories',
+	 'code': u'32899919',
+	 'color': u'Black',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'20%',
+	 'discounted_selling_price': u'999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/914/hidekraft-leather-card-holder-black-large_71e686014488b3b105508991d85e13c1.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/98/hidekraft-leather-card-holder-black-large_5bee0feecfc66c807e690ac72aabdb98.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/570/hidekraft-leather-card-holder-black-large_1fa82ec5097af120957e8d8973a01a67.jpg'],
+	 'images': [{'checksum': '912aa6dccd1d30645a623f56503309a3',
+	             'path': 'full/2321ed0dd5413813c552948d58643384b09dc7ad.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/914/hidekraft-leather-card-holder-black-large_71e686014488b3b105508991d85e13c1.jpg'},
+	            {'checksum': '034024b1add83d6cd5f23a865fe66403',
+	             'path': 'full/657a0a78e6c554e68ded15b5881aee2b27f6db2f.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/98/hidekraft-leather-card-holder-black-large_5bee0feecfc66c807e690ac72aabdb98.jpg'},
+	            {'checksum': '4360510fd9330934dc9b13084e8ce8ec',
+	             'path': 'full/eb62c03488443c0b77c49407ea994db51e76d083.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/570/hidekraft-leather-card-holder-black-large_1fa82ec5097af120957e8d8973a01a67.jpg'}],
+	 'name': '',
+	 'price': u'799',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/hidekraft-leather-card-holder-black/fashion-accessories/travel-luggage/product:32899919/cid:17341/?pos=24'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Hidekraft</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Card Holder</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men,Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Formal</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Black</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Leather</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><ul><li><span>2 Main Compartment</span></li><li><span>4 Card Holders</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>23 x 14 cm (9 x 6 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Card Holder</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>6 Months Manufacturer\'s Warranty</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:19-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902027/cid:17337/?pos=18> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:20-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/956/safari-4-wheels-polyester-trolley-bag-brown-large_48d0cf2f6c650c458d508186dfaa3d4a.jpg> (referer: None)
+2014-11-27 03:22:20-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/956/safari-4-wheels-polyester-trolley-bag-brown-large_48d0cf2f6c650c458d508186dfaa3d4a.jpg> referred in <None>
+2014-11-27 03:22:20-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902029/cid:17337/?pos=17> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:21-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/500/safari-4-wheels-polyester-trolley-bag-brown-large_0917c772f42d1d8c4e5cfa5c5358f6ef.jpg> (referer: None)
+2014-11-27 03:22:21-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/500/safari-4-wheels-polyester-trolley-bag-brown-large_0917c772f42d1d8c4e5cfa5c5358f6ef.jpg> referred in <None>
+2014-11-27 03:22:21-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902031/cid:17337/?pos=16> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:22-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902039/cid:17337/?pos=15> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:23-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/364/safari-4-wheels-polyester-trolley-bag-brown-large_be8ecd8a32b848ec5663945d95172f09.jpg> (referer: None)
+2014-11-27 03:22:23-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/364/safari-4-wheels-polyester-trolley-bag-brown-large_be8ecd8a32b848ec5663945d95172f09.jpg> referred in <None>
+2014-11-27 03:22:23-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32901999/cid:17337/?pos=23>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32901999',
+	 'color': u'Brown',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/956/safari-4-wheels-polyester-trolley-bag-brown-large_48d0cf2f6c650c458d508186dfaa3d4a.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/500/safari-4-wheels-polyester-trolley-bag-brown-large_0917c772f42d1d8c4e5cfa5c5358f6ef.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/364/safari-4-wheels-polyester-trolley-bag-brown-large_be8ecd8a32b848ec5663945d95172f09.jpg'],
+	 'images': [{'checksum': '0ccd01f31cbca2e5740767f145050676',
+	             'path': 'full/ad2ad51875efdfb1ba9f040b6f7d948b45fd630d.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/956/safari-4-wheels-polyester-trolley-bag-brown-large_48d0cf2f6c650c458d508186dfaa3d4a.jpg'},
+	            {'checksum': 'de96e24c562384fe0d8b5ed7d2ecd242',
+	             'path': 'full/4a059d95b2344b71a66c8da8ada3b352dc4c2004.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/500/safari-4-wheels-polyester-trolley-bag-brown-large_0917c772f42d1d8c4e5cfa5c5358f6ef.jpg'},
+	            {'checksum': 'fc2b138c1917799676a93e479aa76d78',
+	             'path': 'full/3b55ca40176043bf95d90dbf53d473a743c17924.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/364/safari-4-wheels-polyester-trolley-bag-brown-large_be8ecd8a32b848ec5663945d95172f09.jpg'}],
+	 'name': '',
+	 'price': u'4575',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32901999/cid:17337/?pos=23'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Brown</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 51 L</span></li><li><span>65 cm: 85.1 L</span></li><li><span>75 cm: 135.8 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 53 x 37 x 26 cm (20.9 x 14.6 x 10.2 in)</span></li><li><span>65 cm: 66 x 43 x 30 cm (26 x 16.9 x 11.8 in)</span></li><li><span>75 cm: 77 x 49 x 36 cm (30.3 x 19.3 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:24-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/399/safari-4-wheels-polyester-trolley-bag-purple-large_c0f905d942202be3b2b8f42fb25c0b47.jpg> (referer: None)
+2014-11-27 03:22:24-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/399/safari-4-wheels-polyester-trolley-bag-purple-large_c0f905d942202be3b2b8f42fb25c0b47.jpg> referred in <None>
+2014-11-27 03:22:25-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/831/safari-4-wheels-polyester-trolley-bag-purple-large_ec66325e0a993f219c6c97a3dd0a2ba3.jpg> (referer: None)
+2014-11-27 03:22:25-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/831/safari-4-wheels-polyester-trolley-bag-purple-large_ec66325e0a993f219c6c97a3dd0a2ba3.jpg> referred in <None>
+2014-11-27 03:22:25-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902041/cid:17337/?pos=14> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:25-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902043/cid:17337/?pos=13> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:26-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/415/safari-4-wheels-polyester-trolley-bag-purple-large_8b9ee3ac0e03dc9b3edd0bd11cb40b0b.jpg> (referer: None)
+2014-11-27 03:22:26-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/415/safari-4-wheels-polyester-trolley-bag-purple-large_8b9ee3ac0e03dc9b3edd0bd11cb40b0b.jpg> referred in <None>
+2014-11-27 03:22:26-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902001/cid:17337/?pos=22>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902001',
+	 'color': u'Purple',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/399/safari-4-wheels-polyester-trolley-bag-purple-large_c0f905d942202be3b2b8f42fb25c0b47.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/831/safari-4-wheels-polyester-trolley-bag-purple-large_ec66325e0a993f219c6c97a3dd0a2ba3.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/415/safari-4-wheels-polyester-trolley-bag-purple-large_8b9ee3ac0e03dc9b3edd0bd11cb40b0b.jpg'],
+	 'images': [{'checksum': '0b3b1e8953b5b87e62b5a3e7890a75bf',
+	             'path': 'full/5829f6f444201a1814a1cf371cac04b57def212e.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/399/safari-4-wheels-polyester-trolley-bag-purple-large_c0f905d942202be3b2b8f42fb25c0b47.jpg'},
+	            {'checksum': '720be89f214fa0fb81b2073a182ca3c1',
+	             'path': 'full/cf837b7ce8bed389d7188951005da264823a4285.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/831/safari-4-wheels-polyester-trolley-bag-purple-large_ec66325e0a993f219c6c97a3dd0a2ba3.jpg'},
+	            {'checksum': 'a65263b1ceff1e3d8f042726b15e146f',
+	             'path': 'full/74e972a69fe526c47a06361edbaa369b70b81781.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/415/safari-4-wheels-polyester-trolley-bag-purple-large_8b9ee3ac0e03dc9b3edd0bd11cb40b0b.jpg'}],
+	 'name': '',
+	 'price': u'4575',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902001/cid:17337/?pos=22'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Purple</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 51 L</span></li><li><span>65 cm: 85.1 L</span></li><li><span>75 cm: 135.8 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 53 x 37 x 26 cm (20.9 x 14.6 x 10.2 in)</span></li><li><span>65 cm: 66 x 43 x 30 cm (26 x 16.9 x 11.8 in)</span></li><li><span>75 cm: 77 x 49 x 36 cm (30.3 x 19.3 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:26-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902045/cid:17337/?pos=12> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:28-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/552/safari-4-wheels-polyester-trolley-bag-red-large_7d4ffc9dbc38422219c48ef2d63cf0fe.jpg> (referer: None)
+2014-11-27 03:22:28-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/552/safari-4-wheels-polyester-trolley-bag-red-large_7d4ffc9dbc38422219c48ef2d63cf0fe.jpg> referred in <None>
+2014-11-27 03:22:28-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902047/cid:17337/?pos=11> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:29-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/496/safari-4-wheels-polyester-trolley-bag-red-large_f5ad3badafd8ddd8532670da4f0c418b.jpg> (referer: None)
+2014-11-27 03:22:29-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/496/safari-4-wheels-polyester-trolley-bag-red-large_f5ad3badafd8ddd8532670da4f0c418b.jpg> referred in <None>
+2014-11-27 03:22:29-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902055/cid:17337/?pos=10> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:29-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902055/cid:17337/?pos=10>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902055',
+	 'color': u'Purple',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [],
+	 'images': [],
+	 'name': '',
+	 'price': u'6000',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902055/cid:17337/?pos=10'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Purple</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 49.2 L</span></li><li><span>65 cm: 96.3 L</span></li><li><span>75 cm: 132.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 57 x 36 x 24 cm (22.4 x 14.2 x 9.4 in)</span></li><li><span>65 cm: 70 x 43 x 32 cm (27.6 x 16.9 x 12.6 in)</span></li><li><span>75 cm: 81 x 48 x 34 cm (31.9 x 18.9 x 13.4 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:31-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/808/safari-4-wheels-polyester-trolley-bag-red-large_47d1c8c98ef7fd1ebbb4eb8a4a7548aa.jpg> (referer: None)
+2014-11-27 03:22:31-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/808/safari-4-wheels-polyester-trolley-bag-red-large_47d1c8c98ef7fd1ebbb4eb8a4a7548aa.jpg> referred in <None>
+2014-11-27 03:22:31-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902053/cid:17337/?pos=9> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:32-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/648/safari-4-wheels-polyester-trolley-bag-red-large_59fbec8ac23daba3274bc9dc97fd7d05.jpg> (referer: None)
+2014-11-27 03:22:32-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/648/safari-4-wheels-polyester-trolley-bag-red-large_59fbec8ac23daba3274bc9dc97fd7d05.jpg> referred in <None>
+2014-11-27 03:22:34-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/640/safari-4-wheels-polyester-trolley-bag-red-large_d83f05205e7939250a94e6135a8483a3.jpg> (referer: None)
+2014-11-27 03:22:34-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/640/safari-4-wheels-polyester-trolley-bag-red-large_d83f05205e7939250a94e6135a8483a3.jpg> referred in <None>
+2014-11-27 03:22:34-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902003/cid:17337/?pos=21>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902003',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/552/safari-4-wheels-polyester-trolley-bag-red-large_7d4ffc9dbc38422219c48ef2d63cf0fe.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/496/safari-4-wheels-polyester-trolley-bag-red-large_f5ad3badafd8ddd8532670da4f0c418b.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/808/safari-4-wheels-polyester-trolley-bag-red-large_47d1c8c98ef7fd1ebbb4eb8a4a7548aa.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/648/safari-4-wheels-polyester-trolley-bag-red-large_59fbec8ac23daba3274bc9dc97fd7d05.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/640/safari-4-wheels-polyester-trolley-bag-red-large_d83f05205e7939250a94e6135a8483a3.jpg'],
+	 'images': [{'checksum': '3b9a12a3866c5dd590dc6bb0143016b4',
+	             'path': 'full/1558f3f5d59ee8bb3c9357b8d116a92d440b7b8a.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/552/safari-4-wheels-polyester-trolley-bag-red-large_7d4ffc9dbc38422219c48ef2d63cf0fe.jpg'},
+	            {'checksum': '32d9e5d65916d66554979434b78a33dc',
+	             'path': 'full/1d4beade968767a3e432d2c6d717eda79fe9832f.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/496/safari-4-wheels-polyester-trolley-bag-red-large_f5ad3badafd8ddd8532670da4f0c418b.jpg'},
+	            {'checksum': '1740c62802515653169dc9780abfc39e',
+	             'path': 'full/1fd47a7265f0443957a9de0b9eef5e6340920974.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/808/safari-4-wheels-polyester-trolley-bag-red-large_47d1c8c98ef7fd1ebbb4eb8a4a7548aa.jpg'},
+	            {'checksum': 'd144470945711dc06d86d99038205304',
+	             'path': 'full/000e17216b748d827d52c5f7b10d876afc5c0e1d.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/648/safari-4-wheels-polyester-trolley-bag-red-large_59fbec8ac23daba3274bc9dc97fd7d05.jpg'},
+	            {'checksum': '1be4ceac76ab9f793f14b7893754f0ce',
+	             'path': 'full/dd895ba540759d300eefa0279766541d44e53a5b.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/640/safari-4-wheels-polyester-trolley-bag-red-large_d83f05205e7939250a94e6135a8483a3.jpg'}],
+	 'name': '',
+	 'price': u'4575',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902003/cid:17337/?pos=21'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 51 L</span></li><li><span>65 cm: 85.1 L</span></li><li><span>75 cm: 135.8 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 53 x 37 x 26 cm (20.9 x 14.6 x 10.2 in)</span></li><li><span>65 cm: 66 x 43 x 30 cm (26 x 16.9 x 11.8 in)</span></li><li><span>75 cm: 77 x 49 x 36 cm (30.3 x 19.3 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:34-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/816/safari-4-wheels-polyester-trolley-bag-red-large_4b5bd455d275f8e3b7eba172647e58ce.jpg> (referer: None)
+2014-11-27 03:22:34-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/816/safari-4-wheels-polyester-trolley-bag-red-large_4b5bd455d275f8e3b7eba172647e58ce.jpg> referred in <None>
+2014-11-27 03:22:36-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-red-large_c558c52056bf1c39d7537cddefef9852.jpg> (referer: None)
+2014-11-27 03:22:36-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-red-large_c558c52056bf1c39d7537cddefef9852.jpg> referred in <None>
+2014-11-27 03:22:37-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-red-large_e315758a767f0d8501ca8f7d94291468.jpg> (referer: None)
+2014-11-27 03:22:37-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-red-large_e315758a767f0d8501ca8f7d94291468.jpg> referred in <None>
+2014-11-27 03:22:38-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/632/safari-4-wheels-polyester-trolley-bag-red-large_97dcb589710a419ab5afffd65821660e.jpg> (referer: None)
+2014-11-27 03:22:38-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/632/safari-4-wheels-polyester-trolley-bag-red-large_97dcb589710a419ab5afffd65821660e.jpg> referred in <None>
+2014-11-27 03:22:38-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902011/cid:17337/?pos=19>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902011',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/816/safari-4-wheels-polyester-trolley-bag-red-large_4b5bd455d275f8e3b7eba172647e58ce.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-red-large_c558c52056bf1c39d7537cddefef9852.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-red-large_e315758a767f0d8501ca8f7d94291468.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/632/safari-4-wheels-polyester-trolley-bag-red-large_97dcb589710a419ab5afffd65821660e.jpg'],
+	 'images': [{'checksum': '15dc8be8ebd8164be6ad2a58db373e7d',
+	             'path': 'full/a76aeb5e597251325ad1dd3e32d37f7e70128bd0.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/816/safari-4-wheels-polyester-trolley-bag-red-large_4b5bd455d275f8e3b7eba172647e58ce.jpg'},
+	            {'checksum': 'b153dcea4dab9e47d799feaf2270146d',
+	             'path': 'full/b1882541561483df40b7d08a72ee8da591da909b.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-red-large_c558c52056bf1c39d7537cddefef9852.jpg'},
+	            {'checksum': '1d6a4c862d2a87309679854d4df3f1cd',
+	             'path': 'full/d42a762279bc700fbeb2fdc32dd59e5ff3a2c8df.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-red-large_e315758a767f0d8501ca8f7d94291468.jpg'},
+	            {'checksum': '4b2e64e0c750110e734eec44c3dfbccf',
+	             'path': 'full/05c8a341c0389721c80744d40561b97496fec6dc.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/632/safari-4-wheels-polyester-trolley-bag-red-large_97dcb589710a419ab5afffd65821660e.jpg'}],
+	 'name': '',
+	 'price': u'4250',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902011/cid:17337/?pos=19'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 51.3 L</span></li><li><span>67 cm: 76.9 L</span></li><li><span>77 cm: 120.4 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 57 x 36 x 25 cm (22.4 x 14.2 x 9.8 in)</span></li><li><span>67 cm: 67 x 41 x 28 cm (26.4 x 16.1 x 11 in)</span></li><li><span>77 cm: 77 x 46 x 34 cm (30.3 x 18.1 x 13.4 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:40-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/856/safari-4-wheels-polyester-trolley-bag-black-large_dcd625eee9204869baf1705754e0c26e.jpg> (referer: None)
+2014-11-27 03:22:40-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/856/safari-4-wheels-polyester-trolley-bag-black-large_dcd625eee9204869baf1705754e0c26e.jpg> referred in <None>
+2014-11-27 03:22:41-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/520/safari-4-wheels-polyester-trolley-bag-black-large_57a79a07ef3bfc4d04f2d635d1ebaa09.jpg> (referer: None)
+2014-11-27 03:22:41-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/520/safari-4-wheels-polyester-trolley-bag-black-large_57a79a07ef3bfc4d04f2d635d1ebaa09.jpg> referred in <None>
+2014-11-27 03:22:42-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/616/safari-4-wheels-polyester-trolley-bag-black-large_c15593068149aa830b41bd770e138cd9.jpg> (referer: None)
+2014-11-27 03:22:42-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/616/safari-4-wheels-polyester-trolley-bag-black-large_c15593068149aa830b41bd770e138cd9.jpg> referred in <None>
+2014-11-27 03:22:44-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/432/safari-4-wheels-polyester-trolley-bag-black-large_18d3d9f38262a9d50bbfe1f895ef002e.jpg> (referer: None)
+2014-11-27 03:22:44-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/432/safari-4-wheels-polyester-trolley-bag-black-large_18d3d9f38262a9d50bbfe1f895ef002e.jpg> referred in <None>
+2014-11-27 03:22:45-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-black-large_2abec9fd0968d0af2acbefab972bd005.jpg> (referer: None)
+2014-11-27 03:22:45-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-black-large_2abec9fd0968d0af2acbefab972bd005.jpg> referred in <None>
+2014-11-27 03:22:46-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902027/cid:17337/?pos=18>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902027',
+	 'color': u'Black',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/856/safari-4-wheels-polyester-trolley-bag-black-large_dcd625eee9204869baf1705754e0c26e.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/520/safari-4-wheels-polyester-trolley-bag-black-large_57a79a07ef3bfc4d04f2d635d1ebaa09.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/616/safari-4-wheels-polyester-trolley-bag-black-large_c15593068149aa830b41bd770e138cd9.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/432/safari-4-wheels-polyester-trolley-bag-black-large_18d3d9f38262a9d50bbfe1f895ef002e.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-black-large_2abec9fd0968d0af2acbefab972bd005.jpg'],
+	 'images': [{'checksum': '6761e97bf065600733bce676af89d4e9',
+	             'path': 'full/dd37a6bcfa4deac2de13eae416a6c8f052d56e3f.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/856/safari-4-wheels-polyester-trolley-bag-black-large_dcd625eee9204869baf1705754e0c26e.jpg'},
+	            {'checksum': '3699bac7aa38eb085fd869b8d6578d6c',
+	             'path': 'full/5e7ff2d7130f4b3238f99b3a2cbc5d53fb5c1204.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/520/safari-4-wheels-polyester-trolley-bag-black-large_57a79a07ef3bfc4d04f2d635d1ebaa09.jpg'},
+	            {'checksum': '3bb5094583b5b11fcf6cb2bc84f8a27e',
+	             'path': 'full/fc3cda825412f7a0170dea7b26b6f717cb878cc7.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/616/safari-4-wheels-polyester-trolley-bag-black-large_c15593068149aa830b41bd770e138cd9.jpg'},
+	            {'checksum': '9a4709b148c3873fc93fb638c610a2eb',
+	             'path': 'full/cf487a1cab39a4983ad3fe3bb3418c71bdf6fe0e.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/432/safari-4-wheels-polyester-trolley-bag-black-large_18d3d9f38262a9d50bbfe1f895ef002e.jpg'},
+	            {'checksum': '0ac4620fd84920012902ea8c090525e7',
+	             'path': 'full/9a97d44b33b4d25d0af1f9899d1efd06f72cd21c.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/680/safari-4-wheels-polyester-trolley-bag-black-large_2abec9fd0968d0af2acbefab972bd005.jpg'}],
+	 'name': '',
+	 'price': u'6250',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902027/cid:17337/?pos=18'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Black</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><span>51.3 L</span></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>57 x 36 x 25 cm (22.4 x 14.2 x 9.8 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:46-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/730/safari-4-wheels-polyester-trolley-bag-red-large_a34e82d9f0b8c5a4c7b7b03017466306.jpg> (referer: None)
+2014-11-27 03:22:46-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/730/safari-4-wheels-polyester-trolley-bag-red-large_a34e82d9f0b8c5a4c7b7b03017466306.jpg> referred in <None>
+2014-11-27 03:22:47-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/34/safari-4-wheels-polyester-trolley-bag-red-large_440d965a51d82634057fcee91854629c.jpg> (referer: None)
+2014-11-27 03:22:47-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/34/safari-4-wheels-polyester-trolley-bag-red-large_440d965a51d82634057fcee91854629c.jpg> referred in <None>
+2014-11-27 03:22:47-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902029/cid:17337/?pos=17>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902029',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/730/safari-4-wheels-polyester-trolley-bag-red-large_a34e82d9f0b8c5a4c7b7b03017466306.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/34/safari-4-wheels-polyester-trolley-bag-red-large_440d965a51d82634057fcee91854629c.jpg'],
+	 'images': [{'checksum': 'fcd29b4b1437033752b3b349b51c8726',
+	             'path': 'full/7505bb696c5a564cd8d7ab4afa14c4ede8591560.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/730/safari-4-wheels-polyester-trolley-bag-red-large_a34e82d9f0b8c5a4c7b7b03017466306.jpg'},
+	            {'checksum': '22515d34c1fe5bb97593f8b439de5d95',
+	             'path': 'full/f1e195b535e3a1b0b74e2075fc011d6c9d1d2216.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/34/safari-4-wheels-polyester-trolley-bag-red-large_440d965a51d82634057fcee91854629c.jpg'}],
+	 'name': '',
+	 'price': u'6250',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902029/cid:17337/?pos=17'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><span>51.3 L</span></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>57 x 36 x 25 cm (22.4 x 14.2 x 9.8 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:47-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/599/safari-4-wheels-polyester-trolley-bag-purple-large_3021e4e5416e45121556d64dcb59e8a6.jpg> (referer: None)
+2014-11-27 03:22:47-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/599/safari-4-wheels-polyester-trolley-bag-purple-large_3021e4e5416e45121556d64dcb59e8a6.jpg> referred in <None>
+2014-11-27 03:22:49-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/303/safari-4-wheels-polyester-trolley-bag-purple-large_f78e6776972f037f29195fcb6d7e5ea2.jpg> (referer: None)
+2014-11-27 03:22:49-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/303/safari-4-wheels-polyester-trolley-bag-purple-large_f78e6776972f037f29195fcb6d7e5ea2.jpg> referred in <None>
+2014-11-27 03:22:50-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/527/safari-4-wheels-polyester-trolley-bag-purple-large_ae27aaf331bc364fe29be11ea5e5f204.jpg> (referer: None)
+2014-11-27 03:22:50-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/527/safari-4-wheels-polyester-trolley-bag-purple-large_ae27aaf331bc364fe29be11ea5e5f204.jpg> referred in <None>
+2014-11-27 03:22:50-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902031/cid:17337/?pos=16>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902031',
+	 'color': u'Purple',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/599/safari-4-wheels-polyester-trolley-bag-purple-large_3021e4e5416e45121556d64dcb59e8a6.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/303/safari-4-wheels-polyester-trolley-bag-purple-large_f78e6776972f037f29195fcb6d7e5ea2.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/527/safari-4-wheels-polyester-trolley-bag-purple-large_ae27aaf331bc364fe29be11ea5e5f204.jpg'],
+	 'images': [{'checksum': 'bc6875e18fd439abd0af88e4595485aa',
+	             'path': 'full/49e6fe2c0f1b7b3a52e638d48688846b30533455.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/599/safari-4-wheels-polyester-trolley-bag-purple-large_3021e4e5416e45121556d64dcb59e8a6.jpg'},
+	            {'checksum': 'fea821d617808c919460feff89ba6e27',
+	             'path': 'full/68cb2e2e0f5e04da50b876832b94a3f401997c57.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/303/safari-4-wheels-polyester-trolley-bag-purple-large_f78e6776972f037f29195fcb6d7e5ea2.jpg'},
+	            {'checksum': 'ab65af2783989e816de71ee5f0738b7c',
+	             'path': 'full/60769645bf11ea3a3c0f033955e78c73c7c4b2ed.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/527/safari-4-wheels-polyester-trolley-bag-purple-large_ae27aaf331bc364fe29be11ea5e5f204.jpg'}],
+	 'name': '',
+	 'price': u'6250',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902031/cid:17337/?pos=16'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Purple</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><span>51.3 L</span></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>57 x 36 x 25 cm (22.4 x 14.2 x 9.8 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:51-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/327/safari-4-wheels-polyester-trolley-bag-black-large_17ff05b566f60403c2ba07611a0d0483.jpg> (referer: None)
+2014-11-27 03:22:51-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/327/safari-4-wheels-polyester-trolley-bag-black-large_17ff05b566f60403c2ba07611a0d0483.jpg> referred in <None>
+2014-11-27 03:22:52-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/863/safari-4-wheels-polyester-trolley-bag-black-large_656019fecaee522e9ae3c9a408f151f3.jpg> (referer: None)
+2014-11-27 03:22:52-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/863/safari-4-wheels-polyester-trolley-bag-black-large_656019fecaee522e9ae3c9a408f151f3.jpg> referred in <None>
+2014-11-27 03:22:53-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/887/safari-4-wheels-polyester-trolley-bag-black-large_c3e50bf1c83b75ac94d7f2920ded3d51.jpg> (referer: None)
+2014-11-27 03:22:53-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/887/safari-4-wheels-polyester-trolley-bag-black-large_c3e50bf1c83b75ac94d7f2920ded3d51.jpg> referred in <None>
+2014-11-27 03:22:53-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902039/cid:17337/?pos=15>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902039',
+	 'color': u'Black',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/327/safari-4-wheels-polyester-trolley-bag-black-large_17ff05b566f60403c2ba07611a0d0483.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/863/safari-4-wheels-polyester-trolley-bag-black-large_656019fecaee522e9ae3c9a408f151f3.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/887/safari-4-wheels-polyester-trolley-bag-black-large_c3e50bf1c83b75ac94d7f2920ded3d51.jpg'],
+	 'images': [{'checksum': '8decea7208e17d67a652461256f567d4',
+	             'path': 'full/1576cc63755bd22dee03f135bffb52682de60742.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/327/safari-4-wheels-polyester-trolley-bag-black-large_17ff05b566f60403c2ba07611a0d0483.jpg'},
+	            {'checksum': '2e31cbde23980ed007f57280c876dd60',
+	             'path': 'full/86173665f135c883146c9f1752ee61d4d5454881.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/863/safari-4-wheels-polyester-trolley-bag-black-large_656019fecaee522e9ae3c9a408f151f3.jpg'},
+	            {'checksum': 'c2cdc800f54681c94b73b5cca8ef5bd8',
+	             'path': 'full/da850544b4fc27f006a768bb1f30bd24043c81f4.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/887/safari-4-wheels-polyester-trolley-bag-black-large_c3e50bf1c83b75ac94d7f2920ded3d51.jpg'}],
+	 'name': '',
+	 'price': u'4700',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-black/fashion-accessories/travel-luggage/product:32902039/cid:17337/?pos=15'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Black</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 67 L</span></li><li><span>65 cm: 97.6 L</span></li><li><span>75 cm: 136.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 58 x 38.5 x 30 cm (22.8 x 15.2 x 11.8 in)</span></li><li><span>65 cm: 68 x 43.5 x 33 cm (26.8 x 17.1 x 13 in)</span></li><li><span>75 cm: 78 x 48.5 x 36 cm (30.7 x 19.1 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:55-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/4/safari-4-wheels-polyester-trolley-bag-blue-large_e9c3a658cb008ab39ec66fc287929879.jpg> (referer: None)
+2014-11-27 03:22:55-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/4/safari-4-wheels-polyester-trolley-bag-blue-large_e9c3a658cb008ab39ec66fc287929879.jpg> referred in <None>
+2014-11-27 03:22:56-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/388/safari-4-wheels-polyester-trolley-bag-blue-large_4e15bc9261544a5e8a8aa30e3e60f214.jpg> (referer: None)
+2014-11-27 03:22:56-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/388/safari-4-wheels-polyester-trolley-bag-blue-large_4e15bc9261544a5e8a8aa30e3e60f214.jpg> referred in <None>
+2014-11-27 03:22:57-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/76/safari-4-wheels-polyester-trolley-bag-blue-large_32761754ef4f7cee124975b5b8fc607d.jpg> (referer: None)
+2014-11-27 03:22:57-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/76/safari-4-wheels-polyester-trolley-bag-blue-large_32761754ef4f7cee124975b5b8fc607d.jpg> referred in <None>
+2014-11-27 03:22:58-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902057/cid:17337/?pos=8> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:22:58-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902057/cid:17337/?pos=8>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902057',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [],
+	 'images': [],
+	 'name': '',
+	 'price': u'6000',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902057/cid:17337/?pos=8'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 49.2 L</span></li><li><span>65 cm: 96.3 L</span></li><li><span>75 cm: 132.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 57 x 36 x 24 cm (22.4 x 14.2 x 9.4 in)</span></li><li><span>65 cm: 70 x 43 x 32 cm (27.6 x 16.9 x 12.6 in)</span></li><li><span>75 cm: 81 x 48 x 34 cm (31.9 x 18.9 x 13.4 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:22:59-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/684/safari-4-wheels-polyester-trolley-bag-blue-large_2f14f4d5228b56301022d6c53e871c3f.jpg> (referer: None)
+2014-11-27 03:22:59-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/684/safari-4-wheels-polyester-trolley-bag-blue-large_2f14f4d5228b56301022d6c53e871c3f.jpg> referred in <None>
+2014-11-27 03:22:59-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902041/cid:17337/?pos=14>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902041',
+	 'color': u'Blue',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/4/safari-4-wheels-polyester-trolley-bag-blue-large_e9c3a658cb008ab39ec66fc287929879.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/388/safari-4-wheels-polyester-trolley-bag-blue-large_4e15bc9261544a5e8a8aa30e3e60f214.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/76/safari-4-wheels-polyester-trolley-bag-blue-large_32761754ef4f7cee124975b5b8fc607d.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/684/safari-4-wheels-polyester-trolley-bag-blue-large_2f14f4d5228b56301022d6c53e871c3f.jpg'],
+	 'images': [{'checksum': 'bc1f75e51bebff9895b7d20f9692ed9b',
+	             'path': 'full/1aa23ff1855335ad28d7e5b71c59005eb8993a04.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/4/safari-4-wheels-polyester-trolley-bag-blue-large_e9c3a658cb008ab39ec66fc287929879.jpg'},
+	            {'checksum': '95b0f9c481f81de834ce60c07b5c9a85',
+	             'path': 'full/4510cdf20974272943c30405d60ed6738b1fa04b.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/388/safari-4-wheels-polyester-trolley-bag-blue-large_4e15bc9261544a5e8a8aa30e3e60f214.jpg'},
+	            {'checksum': '7096416423ecbf54e47e9a4b722087d6',
+	             'path': 'full/da26e78f449aa8bc4511484960c325e6f8fa55d6.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/76/safari-4-wheels-polyester-trolley-bag-blue-large_32761754ef4f7cee124975b5b8fc607d.jpg'},
+	            {'checksum': 'fed2ecedc28608d6b9f00513df79096a',
+	             'path': 'full/992f18f9f6acfbbc8d1b2c61fc8486829e953603.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/684/safari-4-wheels-polyester-trolley-bag-blue-large_2f14f4d5228b56301022d6c53e871c3f.jpg'}],
+	 'name': '',
+	 'price': u'4700',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902041/cid:17337/?pos=14'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Blue</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 67 L</span></li><li><span>65 cm: 97.6 L</span></li><li><span>75 cm: 136.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 58 x 38.5 x 30 cm (22.8 x 15.2 x 11.8 in)</span></li><li><span>65 cm: 68 x 43.5 x 33 cm (26.8 x 17.1 x 13 in)</span></li><li><span>75 cm: 78 x 48.5 x 36 cm (30.7 x 19.1 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:01-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/117/safari-4-wheels-polyester-trolley-bag-red-large_95a425767d63d5ab1b1e06da8707bbf3.jpg> (referer: None)
+2014-11-27 03:23:01-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/117/safari-4-wheels-polyester-trolley-bag-red-large_95a425767d63d5ab1b1e06da8707bbf3.jpg> referred in <None>
+2014-11-27 03:23:01-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm/fashion-accessories/travel-luggage/product:32902181/cid:17337/?pos=7> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:01-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/837/safari-4-wheels-polyester-trolley-bag-red-large_3fc189a94d77299d85aa80414315fb6d.jpg> (referer: None)
+2014-11-27 03:23:01-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/837/safari-4-wheels-polyester-trolley-bag-red-large_3fc189a94d77299d85aa80414315fb6d.jpg> referred in <None>
+2014-11-27 03:23:02-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/pick-any-1-women-bag-kiara/fashion-accessories/travel-luggage/product:32914713/cid:17655/?pos=6> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:02-0600 [homeshop18] INFO: Crawled 62 pages (at 62 pages/min), scraped 14 items (at 14 items/min)
+2014-11-27 03:23:02-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/885/safari-4-wheels-polyester-trolley-bag-red-large_f102f81a7d65be22edc7c1ea458036df.jpg> (referer: None)
+2014-11-27 03:23:02-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/885/safari-4-wheels-polyester-trolley-bag-red-large_f102f81a7d65be22edc7c1ea458036df.jpg> referred in <None>
+2014-11-27 03:23:03-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902043/cid:17337/?pos=13>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902043',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/117/safari-4-wheels-polyester-trolley-bag-red-large_95a425767d63d5ab1b1e06da8707bbf3.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/837/safari-4-wheels-polyester-trolley-bag-red-large_3fc189a94d77299d85aa80414315fb6d.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/885/safari-4-wheels-polyester-trolley-bag-red-large_f102f81a7d65be22edc7c1ea458036df.jpg'],
+	 'images': [{'checksum': 'c2a64552e3df31a65de4de3349533de3',
+	             'path': 'full/d9e8265ad55e0dbd0d56905ade9d3f1d1edc39f9.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/117/safari-4-wheels-polyester-trolley-bag-red-large_95a425767d63d5ab1b1e06da8707bbf3.jpg'},
+	            {'checksum': '4513a896a9e0c95c51c5449fda3cfceb',
+	             'path': 'full/22a03611794d04294495356652d6e26fa476d43c.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/837/safari-4-wheels-polyester-trolley-bag-red-large_3fc189a94d77299d85aa80414315fb6d.jpg'},
+	            {'checksum': '556d8fe1dd057f7960e456406c56f7b3',
+	             'path': 'full/77b5e758f8741996c91310670cab517a7394a163.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/885/safari-4-wheels-polyester-trolley-bag-red-large_f102f81a7d65be22edc7c1ea458036df.jpg'}],
+	 'name': '',
+	 'price': u'4700',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-red/fashion-accessories/travel-luggage/product:32902043/cid:17337/?pos=13'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 67 L</span></li><li><span>65 cm: 97.6 L</span></li><li><span>75 cm: 136.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>55 cm: 58 x 38.5 x 30 cm (22.8 x 15.2 x 11.8 in)</span></li><li><span>65 cm: 68 x 43.5 x 33 cm (26.8 x 17.1 x 13 in)</span></li><li><span>75 cm: 78 x 48.5 x 36 cm (30.7 x 19.1 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:03-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/urban-style-bags-combo-pack-5/fashion-accessories/travel-luggage/product:32917521/cid:17655/?pos=5> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:04-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/472/safari-4-wheels-polyester-trolley-bag-brown-large_3bdfb497c6aefb38c1f0f9f155048492.jpg> (referer: None)
+2014-11-27 03:23:04-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/472/safari-4-wheels-polyester-trolley-bag-brown-large_3bdfb497c6aefb38c1f0f9f155048492.jpg> referred in <None>
+2014-11-27 03:23:04-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-blue/fashion-accessories/travel-luggage/product:32924613/cid:17335/?pos=4> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:05-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/880/safari-4-wheels-polyester-trolley-bag-brown-large_98e84f1bd446d76723db5acc025466ba.jpg> (referer: None)
+2014-11-27 03:23:05-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/880/safari-4-wheels-polyester-trolley-bag-brown-large_98e84f1bd446d76723db5acc025466ba.jpg> referred in <None>
+2014-11-27 03:23:06-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/216/safari-4-wheels-polyester-trolley-bag-brown-large_6498fe8291915385c116a2116c3c7b05.jpg> (referer: None)
+2014-11-27 03:23:06-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/216/safari-4-wheels-polyester-trolley-bag-brown-large_6498fe8291915385c116a2116c3c7b05.jpg> referred in <None>
+2014-11-27 03:23:07-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/360/safari-4-wheels-polyester-trolley-bag-brown-large_86e4e7ca4117c0ee5565278c17158726.jpg> (referer: None)
+2014-11-27 03:23:07-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/360/safari-4-wheels-polyester-trolley-bag-brown-large_86e4e7ca4117c0ee5565278c17158726.jpg> referred in <None>
+2014-11-27 03:23:08-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902045/cid:17337/?pos=12>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902045',
+	 'color': u'Brown',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/472/safari-4-wheels-polyester-trolley-bag-brown-large_3bdfb497c6aefb38c1f0f9f155048492.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/880/safari-4-wheels-polyester-trolley-bag-brown-large_98e84f1bd446d76723db5acc025466ba.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/216/safari-4-wheels-polyester-trolley-bag-brown-large_6498fe8291915385c116a2116c3c7b05.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/360/safari-4-wheels-polyester-trolley-bag-brown-large_86e4e7ca4117c0ee5565278c17158726.jpg'],
+	 'images': [{'checksum': '96446b2b772b1b9f6d2b890c34f7af14',
+	             'path': 'full/613e406956634d00529565f5b142150133cf3f49.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/472/safari-4-wheels-polyester-trolley-bag-brown-large_3bdfb497c6aefb38c1f0f9f155048492.jpg'},
+	            {'checksum': '8da9e2b7cc569dfdd40e5421e246747c',
+	             'path': 'full/36d44ed17916265e28ad27742a503682e44d5289.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/880/safari-4-wheels-polyester-trolley-bag-brown-large_98e84f1bd446d76723db5acc025466ba.jpg'},
+	            {'checksum': '6603fb786b166dcf288618015e693b46',
+	             'path': 'full/ce4eff07bb27da2bbe9f8010b91816fa77e59b41.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/216/safari-4-wheels-polyester-trolley-bag-brown-large_6498fe8291915385c116a2116c3c7b05.jpg'},
+	            {'checksum': '2786ea263caae76f8744eee16cacd068',
+	             'path': 'full/5e8f389483286e26cded6a9428daa152a9ac46e2.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/360/safari-4-wheels-polyester-trolley-bag-brown-large_86e4e7ca4117c0ee5565278c17158726.jpg'}],
+	 'name': '',
+	 'price': u'4900',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-brown/fashion-accessories/travel-luggage/product:32902045/cid:17337/?pos=12'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Brown</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 49.2 L</span></li><li><span>67 cm: 96.3 L</span></li><li><span>77 cm: 132.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 57 x 36 x 24 cm (22.4 x 14.2 x 9.4 in)</span></li><li><span>67 cm: 70 x 43 x 32 cm (27.6 x 16.9 x 12.6 in)</span></li><li><span>77 cm: 81 x 48 x 34 cm (31.9 x 18.9 x 13.4 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:09-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/145/safari-4-wheels-polyester-trolley-bag-blue-large_925bb620774fcb8475b02972dab5317b.jpg> (referer: None)
+2014-11-27 03:23:09-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/145/safari-4-wheels-polyester-trolley-bag-blue-large_925bb620774fcb8475b02972dab5317b.jpg> referred in <None>
+2014-11-27 03:23:10-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/617/safari-4-wheels-polyester-trolley-bag-blue-large_67ce4e5d108c44167d2a93447e90bdc9.jpg> (referer: None)
+2014-11-27 03:23:10-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/617/safari-4-wheels-polyester-trolley-bag-blue-large_67ce4e5d108c44167d2a93447e90bdc9.jpg> referred in <None>
+2014-11-27 03:23:12-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/809/safari-4-wheels-polyester-trolley-bag-blue-large_99b10a28dc52af2305e5464631ca8ce7.jpg> (referer: None)
+2014-11-27 03:23:12-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/809/safari-4-wheels-polyester-trolley-bag-blue-large_99b10a28dc52af2305e5464631ca8ce7.jpg> referred in <None>
+2014-11-27 03:23:14-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/713/safari-4-wheels-polyester-trolley-bag-blue-large_6e399a5d565e232027cbdc990d313ac0.jpg> (referer: None)
+2014-11-27 03:23:14-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/713/safari-4-wheels-polyester-trolley-bag-blue-large_6e399a5d565e232027cbdc990d313ac0.jpg> referred in <None>
+2014-11-27 03:23:15-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/193/safari-4-wheels-polyester-trolley-bag-blue-large_f68e18004cfcc23c462e0597a7813224.jpg> (referer: None)
+2014-11-27 03:23:15-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/193/safari-4-wheels-polyester-trolley-bag-blue-large_f68e18004cfcc23c462e0597a7813224.jpg> referred in <None>
+2014-11-27 03:23:15-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902047/cid:17337/?pos=11>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902047',
+	 'color': u'Blue',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/145/safari-4-wheels-polyester-trolley-bag-blue-large_925bb620774fcb8475b02972dab5317b.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/617/safari-4-wheels-polyester-trolley-bag-blue-large_67ce4e5d108c44167d2a93447e90bdc9.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/809/safari-4-wheels-polyester-trolley-bag-blue-large_99b10a28dc52af2305e5464631ca8ce7.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/713/safari-4-wheels-polyester-trolley-bag-blue-large_6e399a5d565e232027cbdc990d313ac0.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/193/safari-4-wheels-polyester-trolley-bag-blue-large_f68e18004cfcc23c462e0597a7813224.jpg'],
+	 'images': [{'checksum': '11a980732763b89ea545e30698e0582d',
+	             'path': 'full/37d9190a416739d4e711490f92270ad48338839c.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/145/safari-4-wheels-polyester-trolley-bag-blue-large_925bb620774fcb8475b02972dab5317b.jpg'},
+	            {'checksum': '909cce3283deb9652f07012be31d9382',
+	             'path': 'full/2fdfc627e5c728b45bacef7d5ff5c00200823783.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/617/safari-4-wheels-polyester-trolley-bag-blue-large_67ce4e5d108c44167d2a93447e90bdc9.jpg'},
+	            {'checksum': 'd7206c5949379b1f7e2390fe215519b1',
+	             'path': 'full/fa265f6654fa3116bad6280ef727d4d46e06fffe.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/809/safari-4-wheels-polyester-trolley-bag-blue-large_99b10a28dc52af2305e5464631ca8ce7.jpg'},
+	            {'checksum': 'fdd66c75fe9f6ef1bddf28545fa48e04',
+	             'path': 'full/7443cb4f745c3108091884f3a3e3385c4b262595.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/713/safari-4-wheels-polyester-trolley-bag-blue-large_6e399a5d565e232027cbdc990d313ac0.jpg'},
+	            {'checksum': '2eb62c72949dc588bcfd5d103eadd4b7',
+	             'path': 'full/9a33f047766d45382f2f5b6458c8d1f77faa7696.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/193/safari-4-wheels-polyester-trolley-bag-blue-large_f68e18004cfcc23c462e0597a7813224.jpg'}],
+	 'name': '',
+	 'price': u'4900',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-blue/fashion-accessories/travel-luggage/product:32902047/cid:17337/?pos=11'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Blue</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 49.2 L</span></li><li><span>67 cm: 96.3 L</span></li><li><span>77 cm: 132.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>57 cm: 57 x 36 x 24 cm (22.4 x 14.2 x 9.4 in)</span></li><li><span>67 cm: 70 x 43 x 32 cm (27.6 x 16.9 x 12.6 in)</span></li><li><span>77 cm: 81 x 48 x 34 cm (31.9 x 18.9 x 13.4 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:16-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/576/safari-4-wheels-polyester-trolley-bag-purple-large_b7796a5205164da4b32f2e065b6eb1c1.jpg> (referer: None)
+2014-11-27 03:23:16-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/576/safari-4-wheels-polyester-trolley-bag-purple-large_b7796a5205164da4b32f2e065b6eb1c1.jpg> referred in <None>
+2014-11-27 03:23:19-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-purple-large_ef8394a6e5fe8fda7ffa25fc0fe33b02.jpg> (referer: None)
+2014-11-27 03:23:19-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-purple-large_ef8394a6e5fe8fda7ffa25fc0fe33b02.jpg> referred in <None>
+2014-11-27 03:23:19-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902053/cid:17337/?pos=9>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902053',
+	 'color': u'Purple',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/576/safari-4-wheels-polyester-trolley-bag-purple-large_b7796a5205164da4b32f2e065b6eb1c1.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-purple-large_ef8394a6e5fe8fda7ffa25fc0fe33b02.jpg'],
+	 'images': [{'checksum': '527e2b8552ad81c1cbb8f228bfeb688b',
+	             'path': 'full/955cf97c30a972bf81bcd11250f32860ed4458e3.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/576/safari-4-wheels-polyester-trolley-bag-purple-large_b7796a5205164da4b32f2e065b6eb1c1.jpg'},
+	            {'checksum': '49de6a85fbaae28594d7879795774364',
+	             'path': 'full/36952226ac35e78eb95979f21f354bd2a66b76f3.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/336/safari-4-wheels-polyester-trolley-bag-purple-large_ef8394a6e5fe8fda7ffa25fc0fe33b02.jpg'}],
+	 'name': '',
+	 'price': u'4465',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-4-wheels-polyester-trolley-bag-purple/fashion-accessories/travel-luggage/product:32902053/cid:17337/?pos=9'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Purple</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><ul><li><span>56 cm: 56.4 L</span></li><li><span>67 cm: 87.9 L</span></li><li><span>78 cm: 129.2 L</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><ul><li><span>56 cm: 56 x 36 x 28 cm (22 x 14.2 x 11 in)</span></li><li><span>67 cm: 67 x 41 x 32 cm (26.4 x 16.1 x 12.6 in)</span></li><li><span>78 cm: 78 x 46 x 36 cm (30.7 x 18.1 x 14.2 in)</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:19-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/502/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_e809e484e0fb7fed62fa317b84e410f1.jpg> (referer: None)
+2014-11-27 03:23:19-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/502/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_e809e484e0fb7fed62fa317b84e410f1.jpg> referred in <None>
+2014-11-27 03:23:20-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/936/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_5258a3c5160de0afb13b99548be83d44.jpg> (referer: None)
+2014-11-27 03:23:20-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/936/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_5258a3c5160de0afb13b99548be83d44.jpg> referred in <None>
+2014-11-27 03:23:20-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/211/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_03f14eb1406bd578872e7f65ec6db365.jpg> (referer: None)
+2014-11-27 03:23:20-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/211/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_03f14eb1406bd578872e7f65ec6db365.jpg> referred in <None>
+2014-11-27 03:23:21-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-red/fashion-accessories/travel-luggage/product:32924615/cid:17335/?pos=3> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:22-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/361/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_48f6e3430e2a379e4503d06fc66366f9.jpg> (referer: None)
+2014-11-27 03:23:22-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/361/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_48f6e3430e2a379e4503d06fc66366f9.jpg> referred in <None>
+2014-11-27 03:23:22-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm/fashion-accessories/travel-luggage/product:32902181/cid:17337/?pos=7>
+	{'brand': u'Safari',
+	 'category': u'Fashion Accessories',
+	 'code': u'32902181',
+	 'color': u'57 cm',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': 'Travelling can sometimes become a painful experience as you need to plan everything beforehand and things might not always go as you planned. There is one thing that we can help you with which will put your mind at ease, which is, choosing your luggage. Safari brings to you 3 trolley bags in red, black and purple which scream style and strength! Pick any 1 which best suits your style.',
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Pick Any 1 Out Of 3</li>\r<li>Polyester Trolley Bag</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Colour Options- Red, Purple, Black</li>\r<li>51.3 L Carrying Capacity</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/502/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_e809e484e0fb7fed62fa317b84e410f1.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/936/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_5258a3c5160de0afb13b99548be83d44.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/211/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_03f14eb1406bd578872e7f65ec6db365.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/361/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_48f6e3430e2a379e4503d06fc66366f9.jpg'],
+	 'images': [{'checksum': '66308054a9f265703d99afacee8c8098',
+	             'path': 'full/463d4af9e40f1845fd7a0bd9b6602e83ed7d522d.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/502/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_e809e484e0fb7fed62fa317b84e410f1.jpg'},
+	            {'checksum': '704660d9e58215f783be30c37a73a252',
+	             'path': 'full/4f29a06d0ed6437fc136c6738b81db9b0caef749.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/936/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_5258a3c5160de0afb13b99548be83d44.jpg'},
+	            {'checksum': 'e80fa3b5c6b2d5f979bee7afa0c720f0',
+	             'path': 'full/471b85b03816f1078f7f42a978e162792c093cc3.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/211/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_03f14eb1406bd578872e7f65ec6db365.jpg'},
+	            {'checksum': '2694fcd6685fd09107cc3c094057b3c9',
+	             'path': 'full/925135f7b0b40a9211dab2184a5b353361dcde62.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/361/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm-large_48f6e3430e2a379e4503d06fc66366f9.jpg'}],
+	 'name': '',
+	 'price': u'6250',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/safari-polyester-4-wheeled-cabin-trolley-bag-57-cm/fashion-accessories/travel-luggage/product:32902181/cid:17337/?pos=7'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Safari</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Trolley Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Men, Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Product Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><ul><li><span>Black</span></li><li><span>Red</span></li><li><span>Purple</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Polyester</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><span>1 Main Compartment &amp; Zippered Pockets</span></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Expandable</span></td>\n<td class="specs_value"><span>Yes</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><span>1 Extendable Puller</span></td>\n</tr><tr><td class="specs_key"><span>Locking Mechanism</span></td>\n<td class="specs_value"><span>TSA Lock</span></td>\n</tr><tr><td class="specs_key"><span>Carrying Capacity</span></td>\n<td class="specs_value"><span>51.3 L</span></td>\n</tr><tr><td class="specs_key"><span>Wheels</span></td>\n<td class="specs_value"><span>4</span></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>57 x 36 x 25 cm (22.4 x 14.2 x 9.8 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean &amp; Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Trolley Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Warranty</dt>\n<dd class="specs_data">\n<span>1 Year</span></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n<dt class="specs_header">Why you\'ll love this product?</dt>\n<dd class="specs_data">\n<ul><li>Travel in style with these trolley bags brought to you by Safari.</li><li>Lightweight and functional, these trolley bags are built to last.</li><li>A great choice for the frequent flyer. </li><li>Pick any 1 from the 3 options provided.</li></ul></dd>\n<dt class="specs_header">What to know?</dt>\n<dd class="specs_data">\n<ul><li>Choose any 1 from the 3 colour options, namely, red, purple and black.</li><li>These bags are made with polyester, boasting of strength and durability.</li><li>Zippered closure with a TSA lock ensures safe travelling experience. </li><li>With a carrying capacity of 51.3 L, these trolley bags will easily hold all your belongings, in a compact and organized way.</li></ul></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:22-0600 [homeshop18] DEBUG: Crawled (200) <GET http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-grey/fashion-accessories/travel-luggage/product:32924617/cid:17335/?pos=2> (referer: http://www.homeshop18.com/travel-26-luggage/category:17331/)
+2014-11-27 03:23:24-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/65/pick-any-1-womens-bag-by-kiara-large_3c4b4af5c3a74a997373b1dd32da6001.jpg> (referer: None)
+2014-11-27 03:23:24-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/65/pick-any-1-womens-bag-by-kiara-large_3c4b4af5c3a74a997373b1dd32da6001.jpg> referred in <None>
+2014-11-27 03:23:24-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/369/pick-any-1-womens-bag-by-kiara-large_836b1136b5e363cb341a5a7d8e8098d4.jpg> (referer: None)
+2014-11-27 03:23:24-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/369/pick-any-1-womens-bag-by-kiara-large_836b1136b5e363cb341a5a7d8e8098d4.jpg> referred in <None>
+2014-11-27 03:23:26-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/241/pick-any-1-womens-bag-by-kiara-large_6c6a02b8af168dc5f969efd442929af2.jpg> (referer: None)
+2014-11-27 03:23:26-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/241/pick-any-1-womens-bag-by-kiara-large_6c6a02b8af168dc5f969efd442929af2.jpg> referred in <None>
+2014-11-27 03:23:27-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/577/pick-any-1-womens-bag-by-kiara-large_d990493e6afe13a4cb43522c638f5b60.jpg> (referer: None)
+2014-11-27 03:23:27-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/577/pick-any-1-womens-bag-by-kiara-large_d990493e6afe13a4cb43522c638f5b60.jpg> referred in <None>
+2014-11-27 03:23:27-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/pick-any-1-women-bag-kiara/fashion-accessories/travel-luggage/product:32914713/cid:17655/?pos=6>
+	{'brand': u'Kiara',
+	 'category': u'Fashion Accessories',
+	 'code': u'32914713',
+	 'color': u'Pick Any 1 Women\u2019s Bag By Kiara',
+	 'delivery_time': u'Delivered in 3 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': None,
+	 'discounted_selling_price': None,
+	 'features': [u'<ul class="keyfeature_neo"><li>Pick Any 1 Out Of 3</li>\r<li>Material - Leatherite &amp; Synthetic Leather</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Handbag &amp; Tote Bag</li>\r<li>Red &amp; Silver Colours</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/65/pick-any-1-womens-bag-by-kiara-large_3c4b4af5c3a74a997373b1dd32da6001.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/369/pick-any-1-womens-bag-by-kiara-large_836b1136b5e363cb341a5a7d8e8098d4.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/241/pick-any-1-womens-bag-by-kiara-large_6c6a02b8af168dc5f969efd442929af2.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/577/pick-any-1-womens-bag-by-kiara-large_d990493e6afe13a4cb43522c638f5b60.jpg'],
+	 'images': [{'checksum': '7c279b1a2414f233c903e662e4f826a2',
+	             'path': 'full/b3cb35df27249e0a09ab720d341d25d40dcfcb2b.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/65/pick-any-1-womens-bag-by-kiara-large_3c4b4af5c3a74a997373b1dd32da6001.jpg'},
+	            {'checksum': 'ff884c70ad7bc43e6d84ef9bcda9da53',
+	             'path': 'full/164508aa93bc3351a0ab6e4639503eb1c8450a04.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/369/pick-any-1-womens-bag-by-kiara-large_836b1136b5e363cb341a5a7d8e8098d4.jpg'},
+	            {'checksum': '61ccfb610d264e7516ab92bda9dd1c55',
+	             'path': 'full/1a9348a6e4441ac6e4e7894c49e39fa4ae00ad21.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/241/pick-any-1-womens-bag-by-kiara-large_6c6a02b8af168dc5f969efd442929af2.jpg'},
+	            {'checksum': 'f89a5921dc167ad76979b2ce88074f3e',
+	             'path': 'full/fba5522d84d0b7dc9981b9989a3c60eaad2184b8.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/577/pick-any-1-womens-bag-by-kiara-large_d990493e6afe13a4cb43522c638f5b60.jpg'}],
+	 'name': '',
+	 'price': u'1480',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/pick-any-1-women-bag-kiara/fashion-accessories/travel-luggage/product:32914713/cid:17655/?pos=6'],
+	 'specs': [],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:28-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/526/urban-style-bags-combo-pack-of-5-large_4499ae314fcec7e37308529f91a4e0f1.jpg> (referer: None)
+2014-11-27 03:23:28-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/526/urban-style-bags-combo-pack-of-5-large_4499ae314fcec7e37308529f91a4e0f1.jpg> referred in <None>
+2014-11-27 03:23:33-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/486/urban-style-bags-combo-pack-of-5-large_25df51176ce4602e08054b34c984c95a.jpg> (referer: None)
+2014-11-27 03:23:33-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/486/urban-style-bags-combo-pack-of-5-large_25df51176ce4602e08054b34c984c95a.jpg> referred in <None>
+2014-11-27 03:23:35-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/310/urban-style-bags-combo-pack-of-5-large_92c2729070c2cac251ee8fdc07b17505.jpg> (referer: None)
+2014-11-27 03:23:35-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/310/urban-style-bags-combo-pack-of-5-large_92c2729070c2cac251ee8fdc07b17505.jpg> referred in <None>
+2014-11-27 03:23:36-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/902/urban-style-bags-combo-pack-of-5-large_17c963dc51999afa38ea19086f8b00fe.jpg> (referer: None)
+2014-11-27 03:23:36-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/902/urban-style-bags-combo-pack-of-5-large_17c963dc51999afa38ea19086f8b00fe.jpg> referred in <None>
+2014-11-27 03:23:37-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/500/red-chilli-unisex-jacquard-gymbag-blue-large_74f0a9bd78e7463f6d81162b77c9aa83.jpg> (referer: None)
+2014-11-27 03:23:37-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/500/red-chilli-unisex-jacquard-gymbag-blue-large_74f0a9bd78e7463f6d81162b77c9aa83.jpg> referred in <None>
+2014-11-27 03:23:37-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/398/urban-style-bags-combo-pack-of-5-large_6d9954989b52d0e5661b6514d4074be9.jpg> (referer: None)
+2014-11-27 03:23:37-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/398/urban-style-bags-combo-pack-of-5-large_6d9954989b52d0e5661b6514d4074be9.jpg> referred in <None>
+2014-11-27 03:23:37-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/urban-style-bags-combo-pack-5/fashion-accessories/travel-luggage/product:32917521/cid:17655/?pos=5>
+	{'brand': u'Urban Style',
+	 'category': u'Fashion Accessories',
+	 'code': u'32917521',
+	 'color': u'Urban Style Bags Combo \u2013 Pack of 5',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'70%',
+	 'discounted_selling_price': u'5999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Pack Of 5 Bags</li>\r<li>Material Nylon &amp; Polyurethane</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Checkered Pattern</li>\r<li>Red &amp; Blue Colour Combination</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/526/urban-style-bags-combo-pack-of-5-large_4499ae314fcec7e37308529f91a4e0f1.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/486/urban-style-bags-combo-pack-of-5-large_25df51176ce4602e08054b34c984c95a.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/310/urban-style-bags-combo-pack-of-5-large_92c2729070c2cac251ee8fdc07b17505.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/398/urban-style-bags-combo-pack-of-5-large_6d9954989b52d0e5661b6514d4074be9.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/902/urban-style-bags-combo-pack-of-5-large_17c963dc51999afa38ea19086f8b00fe.jpg'],
+	 'images': [{'checksum': 'ddf9182286662d6cc8e913e30c49f9ec',
+	             'path': 'full/62258e6b69e0d4752f3bbd0eda3579e679359628.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/526/urban-style-bags-combo-pack-of-5-large_4499ae314fcec7e37308529f91a4e0f1.jpg'},
+	            {'checksum': 'c556cd4122cb73dd440b8f3ad74c7896',
+	             'path': 'full/ef52aae1d58a6f868ac7f9dc1e001c3f855a263a.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/486/urban-style-bags-combo-pack-of-5-large_25df51176ce4602e08054b34c984c95a.jpg'},
+	            {'checksum': '4de3a8375a6d7a91f06d7d8365665e23',
+	             'path': 'full/d00f6cfc39bbcaf58cbd5bf4796a9b6bf16da953.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/310/urban-style-bags-combo-pack-of-5-large_92c2729070c2cac251ee8fdc07b17505.jpg'},
+	            {'checksum': '54c4a96ec2f102fa2b35935479fdaf48',
+	             'path': 'full/207c19999cb69b7803efc7c80b3053ad02281ec1.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/398/urban-style-bags-combo-pack-of-5-large_6d9954989b52d0e5661b6514d4074be9.jpg'},
+	            {'checksum': '6e3d31fecfeb2405af4414fca58b595c',
+	             'path': 'full/8345bb0b61ce610e10aae48369e9080f894f649d.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/902/urban-style-bags-combo-pack-of-5-large_17c963dc51999afa38ea19086f8b00fe.jpg'}],
+	 'name': '',
+	 'price': u'1799',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/urban-style-bags-combo-pack-5/fashion-accessories/travel-luggage/product:32917521/cid:17655/?pos=5'],
+	 'specs': [],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:38-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/140/red-chilli-unisex-jacquard-gymbag-blue-large_730553e30c90e7b359f54038cb21d466.jpg> (referer: None)
+2014-11-27 03:23:38-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/140/red-chilli-unisex-jacquard-gymbag-blue-large_730553e30c90e7b359f54038cb21d466.jpg> referred in <None>
+2014-11-27 03:23:38-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/260/red-chilli-unisex-jacquard-gymbag-blue-large_1f18a3cb00d7d92c32925c0c27447a7d.jpg> (referer: None)
+2014-11-27 03:23:38-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/260/red-chilli-unisex-jacquard-gymbag-blue-large_1f18a3cb00d7d92c32925c0c27447a7d.jpg> referred in <None>
+2014-11-27 03:23:39-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/732/red-chilli-unisex-jacquard-gymbag-blue-large_e2deb382015ed281fede683e91e24834.jpg> (referer: None)
+2014-11-27 03:23:39-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/732/red-chilli-unisex-jacquard-gymbag-blue-large_e2deb382015ed281fede683e91e24834.jpg> referred in <None>
+2014-11-27 03:23:39-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-blue/fashion-accessories/travel-luggage/product:32924613/cid:17335/?pos=4>
+	{'brand': u'Red Chilli',
+	 'category': u'Fashion Accessories',
+	 'code': u'32924613',
+	 'color': u'Blue',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'40%',
+	 'discounted_selling_price': u'999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/500/red-chilli-unisex-jacquard-gymbag-blue-large_74f0a9bd78e7463f6d81162b77c9aa83.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/732/red-chilli-unisex-jacquard-gymbag-blue-large_e2deb382015ed281fede683e91e24834.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/260/red-chilli-unisex-jacquard-gymbag-blue-large_1f18a3cb00d7d92c32925c0c27447a7d.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/140/red-chilli-unisex-jacquard-gymbag-blue-large_730553e30c90e7b359f54038cb21d466.jpg'],
+	 'images': [{'checksum': 'e1b853d505d845fcda1c5cdfe9aa47ab',
+	             'path': 'full/3325f8b6636ded16908123ba90df8d493da5c6b8.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/500/red-chilli-unisex-jacquard-gymbag-blue-large_74f0a9bd78e7463f6d81162b77c9aa83.jpg'},
+	            {'checksum': '62bf6f841a707f1c06fe090a19d937d9',
+	             'path': 'full/83e9513a85e71bbfb0095af797402719cb2ad443.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/732/red-chilli-unisex-jacquard-gymbag-blue-large_e2deb382015ed281fede683e91e24834.jpg'},
+	            {'checksum': 'e57ee043bbf79967bfced5992c632856',
+	             'path': 'full/54deff15d8f536750f7bb61b1d6e3efe1f87c286.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/260/red-chilli-unisex-jacquard-gymbag-blue-large_1f18a3cb00d7d92c32925c0c27447a7d.jpg'},
+	            {'checksum': '18c010e168107b8296d43e8840c12c47',
+	             'path': 'full/e1c9df71eec546d0069102141321f18f75db8427.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/140/red-chilli-unisex-jacquard-gymbag-blue-large_730553e30c90e7b359f54038cb21d466.jpg'}],
+	 'name': '',
+	 'price': u'599',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-blue/fashion-accessories/travel-luggage/product:32924613/cid:17335/?pos=4'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Red Chilli</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Gym Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Bag Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Blue</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Jacquard</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><ul><li><span>1 Main Compartment</span></li><li><span>1 Zippered Pocket</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><ul><li><span>2 Handles </span></li><li><span>1 Adjustable Shoulder Strap</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>49 x 26 x 26 cm (20 x 11 x 11 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean And Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Gym Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:40-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/878/red-chilli-unisex-jacquard-gymbag-red-large_71b2dc3d7e66cdeee7b1108ac9c7337d.jpg> (referer: None)
+2014-11-27 03:23:40-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/878/red-chilli-unisex-jacquard-gymbag-red-large_71b2dc3d7e66cdeee7b1108ac9c7337d.jpg> referred in <None>
+2014-11-27 03:23:44-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/734/red-chilli-unisex-jacquard-gymbag-red-large_ccaf56348f9f67781b372d56eb076ab0.jpg> (referer: None)
+2014-11-27 03:23:44-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/734/red-chilli-unisex-jacquard-gymbag-red-large_ccaf56348f9f67781b372d56eb076ab0.jpg> referred in <None>
+2014-11-27 03:23:46-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/126/red-chilli-unisex-jacquard-gymbag-red-large_cc15f71748aea4c15c8a86b0a0b58ddd.jpg> (referer: None)
+2014-11-27 03:23:46-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/126/red-chilli-unisex-jacquard-gymbag-red-large_cc15f71748aea4c15c8a86b0a0b58ddd.jpg> referred in <None>
+2014-11-27 03:23:47-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/334/red-chilli-unisex-jacquard-gymbag-red-large_7acff34c7a3ee25fa074af8ff33c0003.jpg> (referer: None)
+2014-11-27 03:23:47-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/334/red-chilli-unisex-jacquard-gymbag-red-large_7acff34c7a3ee25fa074af8ff33c0003.jpg> referred in <None>
+2014-11-27 03:23:47-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-red/fashion-accessories/travel-luggage/product:32924615/cid:17335/?pos=3>
+	{'brand': u'Red Chilli',
+	 'category': u'Fashion Accessories',
+	 'code': u'32924615',
+	 'color': u'Red',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'40%',
+	 'discounted_selling_price': u'999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/878/red-chilli-unisex-jacquard-gymbag-red-large_71b2dc3d7e66cdeee7b1108ac9c7337d.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/734/red-chilli-unisex-jacquard-gymbag-red-large_ccaf56348f9f67781b372d56eb076ab0.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/126/red-chilli-unisex-jacquard-gymbag-red-large_cc15f71748aea4c15c8a86b0a0b58ddd.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/334/red-chilli-unisex-jacquard-gymbag-red-large_7acff34c7a3ee25fa074af8ff33c0003.jpg'],
+	 'images': [{'checksum': '9802dc370a53eca645810711e1743c93',
+	             'path': 'full/815dfe5c9cc23c4e15a1341c0729292ad38612f9.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/878/red-chilli-unisex-jacquard-gymbag-red-large_71b2dc3d7e66cdeee7b1108ac9c7337d.jpg'},
+	            {'checksum': '024e61a318a649d541f2c2c20a807fdf',
+	             'path': 'full/64fcd085b85cb3134417beae47ae7eb6a7e8ef3c.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/734/red-chilli-unisex-jacquard-gymbag-red-large_ccaf56348f9f67781b372d56eb076ab0.jpg'},
+	            {'checksum': '0bf1546f43789f65116f21f01cde011c',
+	             'path': 'full/e571ccaa2bc7d12c2dbba204750eb78919f86c16.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/126/red-chilli-unisex-jacquard-gymbag-red-large_cc15f71748aea4c15c8a86b0a0b58ddd.jpg'},
+	            {'checksum': '235d5d455492b781cd57b657055569ed',
+	             'path': 'full/ec5fd8cfa0bec0b662d1cea6367fe83fbf31d045.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/334/red-chilli-unisex-jacquard-gymbag-red-large_7acff34c7a3ee25fa074af8ff33c0003.jpg'}],
+	 'name': '',
+	 'price': u'599',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-red/fashion-accessories/travel-luggage/product:32924615/cid:17335/?pos=3'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Red Chilli</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Gym Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Bag Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Red</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Jacquard</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><ul><li><span>1 Main Compartment</span></li><li><span>1 Zippered Pocket</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><ul><li><span>2 Handles </span></li><li><span>1 Adjustable Shoulder Strap</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>49 x 26 x 26 cm (20 x 11 x 11 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean And Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Gym Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:48-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/250/red-chilli-unisex-jacquard-gymbag-grey-large_5e3c4a553f40d31e9703b984157f5aef.jpg> (referer: None)
+2014-11-27 03:23:48-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/250/red-chilli-unisex-jacquard-gymbag-grey-large_5e3c4a553f40d31e9703b984157f5aef.jpg> referred in <None>
+2014-11-27 03:23:49-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/986/red-chilli-unisex-jacquard-gymbag-grey-large_1af85f753ec14b4bec49244645c3fa2c.jpg> (referer: None)
+2014-11-27 03:23:49-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/986/red-chilli-unisex-jacquard-gymbag-grey-large_1af85f753ec14b4bec49244645c3fa2c.jpg> referred in <None>
+2014-11-27 03:23:51-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/362/red-chilli-unisex-jacquard-gymbag-grey-large_656cc4b705dd3b2c1277f500cf257918.jpg> (referer: None)
+2014-11-27 03:23:51-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/362/red-chilli-unisex-jacquard-gymbag-grey-large_656cc4b705dd3b2c1277f500cf257918.jpg> referred in <None>
+2014-11-27 03:23:52-0600 [homeshop18] DEBUG: Crawled (200) <GET http://stat.homeshop18.com/homeshop18/images/productImages/234/red-chilli-unisex-jacquard-gymbag-grey-large_444982f0610cbc18454e4115a36b1cde.jpg> (referer: None)
+2014-11-27 03:23:52-0600 [homeshop18] DEBUG: Image (downloaded): Downloaded image from <GET http://stat.homeshop18.com/homeshop18/images/productImages/234/red-chilli-unisex-jacquard-gymbag-grey-large_444982f0610cbc18454e4115a36b1cde.jpg> referred in <None>
+2014-11-27 03:23:52-0600 [homeshop18] DEBUG: Scraped from <200 http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-grey/fashion-accessories/travel-luggage/product:32924617/cid:17335/?pos=2>
+	{'brand': u'Red Chilli',
+	 'category': u'Fashion Accessories',
+	 'code': u'32924617',
+	 'color': u'Grey',
+	 'delivery_time': u'Delivered in 4 Working Days',
+	 'description': [],
+	 'dimension': [],
+	 'discount_percent': u'40%',
+	 'discounted_selling_price': u'999',
+	 'features': [u'<ul class="keyfeature_neo"><li>Exotic floral scent.</li>\r<li>Soft and supple skin.</li>\r<li>Nourishing &amp; moisturizing</li>\r</ul>',
+	              u'<ul class="keyfeature_neo"><li>Tones &amp; smoothens skin</li>\r<li>It leaves an exotic floral scent left after use.</li>\r</ul>'],
+	 'image_urls': [u'http://stat.homeshop18.com/homeshop18/images/productImages/250/red-chilli-unisex-jacquard-gymbag-grey-large_5e3c4a553f40d31e9703b984157f5aef.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/986/red-chilli-unisex-jacquard-gymbag-grey-large_1af85f753ec14b4bec49244645c3fa2c.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/362/red-chilli-unisex-jacquard-gymbag-grey-large_656cc4b705dd3b2c1277f500cf257918.jpg',
+	                u'http://stat.homeshop18.com/homeshop18/images/productImages/234/red-chilli-unisex-jacquard-gymbag-grey-large_444982f0610cbc18454e4115a36b1cde.jpg'],
+	 'images': [{'checksum': 'ff24b22e2610cf7d7a7f5670c0851e54',
+	             'path': 'full/7dd92e077a09adb36535e585b0af497aa843ccd3.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/250/red-chilli-unisex-jacquard-gymbag-grey-large_5e3c4a553f40d31e9703b984157f5aef.jpg'},
+	            {'checksum': 'e9b8c4c9d69566d6d1158006cefb4a94',
+	             'path': 'full/a7363daa5cb71f226dddde5fd011a5554ea051a8.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/986/red-chilli-unisex-jacquard-gymbag-grey-large_1af85f753ec14b4bec49244645c3fa2c.jpg'},
+	            {'checksum': '30fd4a716122c6d365b8757233f7fc73',
+	             'path': 'full/5df9dd3b54fbc617e92c653e0545d7424f7818a9.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/362/red-chilli-unisex-jacquard-gymbag-grey-large_656cc4b705dd3b2c1277f500cf257918.jpg'},
+	            {'checksum': 'e4660273e939f347be0b06928f88c82b',
+	             'path': 'full/a067510847f2f5179b48f1ba86304be54525e503.jpg',
+	             'url': 'http://stat.homeshop18.com/homeshop18/images/productImages/234/red-chilli-unisex-jacquard-gymbag-grey-large_444982f0610cbc18454e4115a36b1cde.jpg'}],
+	 'name': '',
+	 'price': u'599',
+	 'product_type': u'Fashion Accessories',
+	 'ratings': None,
+	 'reviews': None,
+	 'sourceurl': ['http://www.homeshop18.com/red-chilli-unisex-jacquard-gymbag-grey/fashion-accessories/travel-luggage/product:32924617/cid:17335/?pos=2'],
+	 'specs': [u'<div class="border-box2" id="productSpecificationDetailsAreaPDP">\r<div class="productDetails">\r<dl class="specs"><dt class="specs_header">General</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Brand</span></td>\n<td class="specs_value"><span>Red Chilli</span></td>\n</tr><tr><td class="specs_key"><span>Type</span></td>\n<td class="specs_value"><span>Gym Bag</span></td>\n</tr><tr><td class="specs_key"><span>For</span></td>\n<td class="specs_value"><span>Unisex</span></td>\n</tr><tr><td class="specs_key"><span>Occasion</span></td>\n<td class="specs_value"><span>Casual</span></td>\n</tr></table></dd>\n<dt class="specs_header">Bag Details</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>Colour</span></td>\n<td class="specs_value"><span>Grey</span></td>\n</tr><tr><td class="specs_key"><span>Material</span></td>\n<td class="specs_value"><span>Jacquard</span></td>\n</tr><tr><td class="specs_key"><span>Compartments</span></td>\n<td class="specs_value"><ul><li><span>1 Main Compartment</span></li><li><span>1 Zippered Pocket</span></li></ul></td>\n</tr><tr><td class="specs_key"><span>Closure</span></td>\n<td class="specs_value"><span>Zippered</span></td>\n</tr><tr><td class="specs_key"><span>Handles</span></td>\n<td class="specs_value"><ul><li><span>2 Handles </span></li><li><span>1 Adjustable Shoulder Strap</span></li></ul></td>\n</tr></table></dd>\n<dt class="specs_header">Dimensions</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>49 x 26 x 26 cm (20 x 11 x 11 in)</span></td>\n</tr></table></dd>\n<dt class="specs_header">Care</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>Wipe With A Clean And Dry Cloth When Needed</span></td>\n</tr></table></dd>\n<dt class="specs_header">Package Contents</dt>\n<dd class="specs_data">\n<table class="specs_map"><tr><td class="specs_key"><span>\xa0</span></td>\n<td class="specs_value"><span>1 Gym Bag</span></td>\n</tr></table></dd>\n<dt class="specs_header">Disclaimer</dt>\n<dd class="specs_data">\n<span>Products sold on HomeShop18 are brand new and 100% genuine. Every effort has been made to ensure that the information on this site is accurate. If you find any error, please report <a href="mailto:feedback.homeshop18@network18online.com">here.</a>.</span></dd>\n</dl></div>\r</div>'],
+	 'subcategory': [None],
+	 'weight': []}
+2014-11-27 03:23:52-0600 [homeshop18] INFO: Closing spider (finished)
+2014-11-27 03:23:52-0600 [homeshop18] INFO: Stored json feed (24 items) in: downloaded_items/homeshop18/homeshop18.json
+2014-11-27 03:23:52-0600 [homeshop18] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 55092,
+	 'downloader/request_count': 103,
+	 'downloader/request_method_count/GET': 103,
+	 'downloader/response_bytes': 4744048,
+	 'downloader/response_count': 103,
+	 'downloader/response_status_count/200': 103,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 11, 27, 9, 23, 52, 620131),
+	 'image_count': 78,
+	 'image_status_count/downloaded': 78,
+	 'item_scraped_count': 24,
+	 'log_count/DEBUG': 211,
+	 'log_count/INFO': 5,
+	 'request_depth_max': 1,
+	 'response_received_count': 103,
+	 'scheduler/dequeued': 25,
+	 'scheduler/dequeued/memory': 25,
+	 'scheduler/enqueued': 25,
+	 'scheduler/enqueued/memory': 25,
+	 'start_time': datetime.datetime(2014, 11, 27, 9, 22, 2, 363195)}
+2014-11-27 03:23:52-0600 [homeshop18] INFO: Spider closed (finished)

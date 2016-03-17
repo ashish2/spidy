@@ -127,69 +127,6 @@ class YepmewomenItem(Item):
 	relatedProducts = Field()
 
 
-class FlipkartItem(Item):
-	sourceurl = Field()
-	code = Field()
-	price = Field()
-	color = Field()
-	name = Field()
-	features = Field()
-	specs = Field()
-	description = Field()
-	weight = Field()
-	dimension = Field()
-	delivery_time = Field()
-	discounted_selling_price = Field()
-	discount_percent = Field()
-	product_type = Field()
-	category = Field()
-	subcategory = Field()
-	brand = Field()
-	payment_options = Field()
-	seller_info = Field()
-	reviews = Field()
-	ratings = Field()
-	image_urls = Field()
-	images = Field()
-
-	# material_fabric = Field()
-
-class Homeshop18Item(Item):
-	sourceurl = Field()
-	code = Field()
-	price = Field()
-	color = Field()
-	name = Field()
-	features = Field()
-	specs = Field()
-	description = Field()
-	weight = Field()
-	dimension = Field()
-	delivery_time = Field()
-	discounted_selling_price = Field()
-	discount_percent = Field()
-	product_type = Field()
-	category = Field()
-	subcategory = Field()
-	brand = Field()
-	# payment_options = Field()
-	# seller_info = Field()
-	reviews = Field()
-	ratings = Field()
-	image_urls = Field()
-	images = Field()
-
-	# material_fabric = Field()
-
-
-
-
-
-
-	
-	
-
-
 # =========================
 
 from scrapy.contrib.djangoitem import DjangoItem

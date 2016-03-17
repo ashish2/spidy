@@ -33,6 +33,8 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 from scrapy.item import *
 
+from tutorial2.items import *
+
 import sys
 
 class CompuindiaSpider(CrawlSpider):
